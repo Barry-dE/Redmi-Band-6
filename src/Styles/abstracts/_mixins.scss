@@ -1,0 +1,28 @@
+@mixin flex($pos) {
+  display: flex;
+  justify-content: $pos;
+  align-items: center;
+}
+
+@mixin grid($gap) {
+  display: grid;
+  gap: $gap;
+}
+
+@mixin centre {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin border-rad {
+  border-radius: 2rem;
+}
+
+@mixin img-fit($fit) {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: $fit;
+}
