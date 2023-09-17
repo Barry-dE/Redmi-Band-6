@@ -11,14 +11,17 @@ function Hero() {
         and lifestyle goals
       </p>
       <div className="marquee">
-        <span>
-          Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi
-          Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi
-          Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi
-          Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi
-          Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi
-          Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi
-        </span>
+        <div>
+          <span>
+            Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6.
+            Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6.
+            Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6.
+            Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6.
+            Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6.
+            Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6. Mi Smart Band 6.
+            Mi
+          </span>
+        </div>
       </div>
       <section>
         {/* <img
