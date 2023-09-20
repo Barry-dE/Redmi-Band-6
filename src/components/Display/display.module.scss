@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  padding: 3rem;
+  @include flex(center);
+  flex-direction: column;
+  gap: 3rem;
+  h1 {
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 8rem;
+    &:not(:last-child) {
+      color: rgba(205, 196, 196, 0.634);
+    }
+  }
+}
+
+.containerItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+
+  img {
+    width: 40%;
+  }
+}
